@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.standard-width {
+    width: 1920px;
+    margin: auto;
+    max-width: 80%;
+}
+.min-height {
+    height: 100vh;
+}
+.footer {
+    background-color: #ddd;
+}
+.footer h3 {
+    margin: 0;
+    padding: 160px;
+    text-align: center;
+}
+h1.standard {
+    margin-top: 95px;
+    font-size: 55px;
+    text-align: center;
+}
+button:hover {
+    cursor: pointer;
+}
+button.standard-btn {
+    text-align: left;
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 220px;
+    font-size: 36px;
+    border-radius: 8px;
+    display: block;
+}
+a {
+    text-decoration:none;
+}
+.standard-table th, .standard-table td {
+    border: 1px solid #ebebeb;
+    padding: 8px 8px;
+}
+.standard-table th {
+    font-weight: 600;
+    background-color: #ebebeb;
+    border-color: #c1c1c1;
+}
+table.standard-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.actions {
+    text-align: center;
+}
+.back-btn {
+    margin-top: 16px;
+}
+.one-dev h4 {
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.one-dev button {
+    display: inline-block;
+}
+h1.standard {
+    margin-top: 95px;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+}
+.landing div {
+    width: 50%;
+    display: inline-block;
+}
+.landing p {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+.total-hours {
+    text-align: right;
+}
+.total-hours p {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+    .standard-width {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+    }
+}
